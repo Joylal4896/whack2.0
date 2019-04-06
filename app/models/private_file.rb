@@ -1,5 +1,5 @@
 class PrivateFile < ActiveRecord::Base
 
-mount_uploader :link, FileUploader
+    mount_uploader :link, FileUploader
 
 end
